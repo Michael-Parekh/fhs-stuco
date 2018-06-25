@@ -483,7 +483,117 @@ body {
 	z-index: 9999;
 }
 
-
+@media (min-width: 1200px) {
+	.landing-header {
+		font-size: 50px;
+		margin-top: 27.5vh;
+	}
+	.landing-subheader {
+		font-size: 35px;
+		margin-top: 16.50vh;
+	}
+	.navbar {
+		margin-top: 2.5%; 
+	}
+	.navbar-list {
+		font-size: 20px;
+		margin: 0.25% 5%;
+	}
+	.section-header {
+		font-size: 40px;
+	}
+	.section-subheader {
+		font-size: 20px;
+	}
+	.calendar {
+		width: 70%;
+		height: 500px;
+	}
+	#box {
+		width: 70%;
+		height: 500px;
+	}
+	.check-in-frame {
+		width: 35%;
+		height: 575px;
+		display: inline-block;
+	}
+	.check-out-frame {
+		width: 35%;
+		height: 575px;
+		display: inline-block;
+		margin-top: 0em;
+	}
+	.copyright {
+		font-size: 15px;
+	}
+	.signature {
+		font-size: 15px;
+	}
+	.advisor-name {
+		font-size: 17px;
+	}
+	.eboard-name {
+		font-size: 16px;
+	}
+	.advisor-description {
+		font-size: 15.75px;
+	}
+	.eboard-description {
+		font-size: 15px;
+	}
+	.advisor-image {
+		max-width: 175px;
+		height: auto;
+	}
+	.eboard-image {
+		max-width: 150px;
+		height: auto;
+	}
+	.advisor-colors {
+		height: 48px;
+		width: 48px;
+	}
+	.steps-header {
+		font-size: 24px;
+	}
+	.steps-paragraph {
+		font-size: 18px;
+	}
+	.steps-colors {
+		width: 50px;
+		height: 50px;
+	}
+	.medal {
+		max-width: 105px;
+		height: auto;
+	}
+	.footer-colors {
+		width: 30px;
+		height: 30px;
+	}
+	.down-arrow {
+		max-width: 38px;
+		height: auto;
+	}
+	.up-button {
+		width: 45px;
+		height: 45px;
+	}
+	.step-boxes {
+		width: 23.5%;
+	}
+	.advisor-box {
+		width: 250px;
+		height: 475px;
+		margin: 2% 3.5%;
+	}
+	.eboard-box {
+		width: 212px;
+		height: 425px;
+		margin: 1.75% 2%;
+	}
+}
 
 
 
