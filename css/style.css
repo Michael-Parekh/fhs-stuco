@@ -483,7 +483,7 @@ body {
 	z-index: 9999;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 200px) {
 	.landing-header {
 		font-size: 50px;
 		margin-top: 27.5vh;
