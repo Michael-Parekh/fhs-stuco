@@ -256,8 +256,6 @@ body {
 }
 
 .eboard-colors {
-	height: 37px;
-	width: 37px;
 	fill: black;
 	padding: 0px;
 	transition-duration: 0.30s;
@@ -304,7 +302,6 @@ body {
 	border: 3px solid black;
 	border-radius: 25px;
 	padding: 1%;
-	margin: 4% 3%;
 	opacity: 0.85;
 	transition: .2s;
 }
@@ -381,7 +378,6 @@ body {
 }
 
 .up-button {
-	margin-top: 4em;
 	transition-duration: .4s;
 }
 
@@ -486,10 +482,10 @@ body {
 		margin: 0.25% 1.0%;
 	}
 	.section-header {
-		font-size: 28px;
+		font-size: 25px;
 	}
 	.section-subheader {
-		font-size: 14px;
+		font-size: 13px;
 	}
 	.calendar {
 		width: 78%;
@@ -541,8 +537,12 @@ body {
 		height: auto;
 	}
 	.advisor-colors {
-		height: 34px;
-		width: 34px;
+		height: 33px;
+		width: 33px;
+	}
+	.eboard-colors {
+		height: 30px;
+		width: 30px;
 	}
 	.steps-header {
 		font-size: 18.5px;
@@ -563,18 +563,27 @@ body {
 		height: 24px;
 	}
 	.down-arrow {
-		max-width: 35px;
+		max-width: 32px;
 		height: auto;
 		margin-top: 17vh;
 	}
 	.up-button {
 		width: 42px;
 		height: 42px;
+		margin-top: 3.25em;
 	}
 	.step-boxes {
 		width: 65%;
 		height: auto;
 		padding: 2%;
+		margin: 3% 3%;
+	}
+	.step-boxes:hover {
+		transform: scale(1.10);
+		opacity: 1.0;
+	}
+	#advisor-one {
+		margin-top: 4%;
 	}
 	.advisor-box {
 		width: 60%;
@@ -587,7 +596,8 @@ body {
 		margin: 1.75% 1%;
 	}
 	.eboard-paragraph-container {
-		height: 170px;
+		height: auto;
+		margin-bottom: 2%;
 	}
 	.advisor-box:hover {
 		transform: scale(1.04);
@@ -597,6 +607,7 @@ body {
 	}
 	.footer-icons {
 		display: inline-block;
+		width: 100%;
 	}
 	.signature-box {
 		width: 1fr;
@@ -653,21 +664,26 @@ body {
 		height: 400px;
 	}
 	.check-in-frame {
-		width: 75%;
+		width: 60%;
 		height: 500px;
 		display: block;
+		margin-left: auto;
+		margin-right: auto;
+
 	}
 	.check-out-frame {
-		width: 75%;
+		width: 60%;
 		height: 500px;
 		display: block;
-		margin-top: 0em;
+		margin-top: 2em;
+		margin-right: auto;
+		margin-left: auto;
 	}
 	.copyright {
-		font-size: 14px;
+		font-size: 11.5px;
 	}
 	.signature {
-		font-size: 14px;
+		font-size: 11.5px;
 	}
 	.advisor-name {
 		font-size: 15px;
@@ -690,8 +706,12 @@ body {
 		height: auto;
 	}
 	.advisor-colors {
-		height: 39px;
-		width: 39px;
+		height: 35px;
+		width: 35px;
+	}
+	.eboard-colors {
+		height: 32px;
+		width: 32px;
 	}
 	.steps-header {
 		font-size: 20px;
@@ -708,8 +728,8 @@ body {
 		height: auto;
 	}
 	.footer-colors {
-		width: 22px;
-		height: 22px;
+		width: 26px;
+		height: 26px;
 	}
 	.down-arrow {
 		max-width: 36px;
@@ -719,39 +739,48 @@ body {
 	.up-button {
 		width: 43px;
 		height: 43px;
+		margin-top: 3.25em;
 	}
 	.step-boxes {
-		width: 75%;
-		height: 350px;
+		width: 65%;
+		height: auto;
+		padding: 2%;
+		margin: 3% 3%;
+	}
+	.step-boxes:hover {
+		transform: scale(1.10);
+		opacity: 1.0;
 	}
 	.advisor-box {
 		width: 55%;
-		height: 475px;
+		height: auto;
 		margin: 2% 1.0%;
 	}
 	.eboard-box {
 		width: 36%;
-		height: 425px;
+		height: auto;
 		margin: 1.75% 2%;
 	}
 	.eboard-paragraph-container {
-		height: 163px;
+		height: auto;
+		margin-bottom: 1.25%;
 	}
 	.advisor-box:hover {
-		transform: scale(1.15);
+		transform: scale(1.05);
 	}
 	.eboard-box:hover {
-		transform: scale(1.15);
+		transform: scale(1.04);
 	}
 	.footer-icons {
 		display: inline-block;
+		width: width: 100%;
 	}
 	.signature-box {
-		width: 1fr;
+		width: 100%;
 		display: inline-block;
 	}
 	.copyright-box {
-		width: 1fr;
+		width: 100%;
 		display: inline-block;
 	}
 	.footer {
@@ -760,10 +789,11 @@ body {
 		justify-content: space-between;
 	}
 	.signature-name {
-		font-size: 15.25px;
+		font-size: 13px;
 	}
 	.advisor-paragraph-container {
-		height: 155px;
+		height: auto;
+		padding: 2%;
 	}
 	
 }
@@ -772,7 +802,7 @@ body {
 @media (min-width: 768px) {
 	.landing-header {
 		font-size: 38px;
-		margin-top: 27.5vh;
+		margin-top: 25vh;
 	}
 	.landing-subheader {
 		font-size: 29px;
@@ -782,7 +812,7 @@ body {
 		margin-top: 7%; 
 	}
 	.navbar-list {
-		font-size: 18.5px;
+		font-size: 18.25px;
 		margin: 0.25% 4%;
 	}
 	.section-header {
@@ -801,20 +831,24 @@ body {
 	}
 	.check-in-frame {
 		width: 37%;
-		height: 550px;
+		height: 500px;
 		display: inline-block;
+		margin-right: 4%;
+		margin-left: auto;
 	}
 	.check-out-frame {
 		width: 37%;
-		height: 550px;
+		height: 500px;
 		display: inline-block;
 		margin-top: 0em;
+		margin-left: 4%;
+		margin-right: auto;
 	}
 	.copyright {
-		font-size: 13px;
+		font-size: 12px;
 	}
 	.signature {
-		font-size: 13px;
+		font-size: 12px;
 	}
 	.advisor-name {
 		font-size: 16px;
@@ -823,10 +857,10 @@ body {
 		font-size: 15px;
 	}
 	.advisor-description {
-		font-size: 14.75px;
+		font-size: 14px;
 	}
 	.eboard-description {
-		font-size: 14px;
+		font-size: 13px;
 	}
 	.advisor-image {
 		max-width: 150px;
@@ -837,8 +871,12 @@ body {
 		height: auto;
 	}
 	.advisor-colors {
-		height: 44px;
-		width: 44px;
+		height: 40px;
+		width: 40px;
+	}
+	.eboard-colors {
+		height: 37px;
+		width: 37px;
 	}
 	.steps-header {
 		font-size: 22px;
@@ -847,8 +885,9 @@ body {
 		font-size: 16px;
 	}
 	.steps-colors {
-		width: 40px;
-		height: 40px;
+		width: 38px;
+		height: 38px;
+		margin: 4% 2%;
 	}
 	.medal {
 		max-width: 85px;
@@ -859,46 +898,54 @@ body {
 		height: 26px;
 	}
 	.down-arrow {
-		max-width: 37px;
+		max-width: 38px;
 		height: auto;
-		margin-top: 18.75vh;
+		margin-top: 30vh;
 	}
 	.up-button {
 		width: 44px;
 		height: 44px;
+		margin-top: 4em;
 	}
 	.step-boxes {
-		width: 25%;
-		height: 350px;
+		width: 23%;
+		height: auto;
+		margin: 3% 1.25%;
+	}
+	.step-boxes:hover {
+		transform: scale(1.07);
+		opacity: 1.0;
 	}
 	.advisor-box {
 		width: 25%;
-		height: 475px;
-		margin: 2% 1.0%;
+		height: auto;
+		margin: 4% 1.0%;
 	}
 	.eboard-box {
 		width: 19%;
-		height: 425px;
+		height: auto;
 		margin: 1.75% 1.25%;
 	}
 	.eboard-paragraph-container {
-		height: 163px;
+		height: auto;
+		margin-bottom: 1.25%;
 	}
 	.advisor-box:hover {
-		transform: scale(1.15);
+		transform: scale(1.1);
 	}
 	.eboard-box:hover {
-		transform: scale(1.15);
+		transform: scale(1.08);
 	}
 	.footer-icons {
 		display: inline-block;
+		width: 100%;
 	}
 	.signature-box {
-		width: 1fr;
+		width: 100%;
 		display: inline-block;
 	}
 	.copyright-box {
-		width: 1fr;
+		width: 100%;
 		display: inline-block;
 	}
 	.footer {
@@ -907,10 +954,10 @@ body {
 		justify-content: space-between;
 	}
 	.signature-name {
-		font-size: 15.25px;
+		font-size: 13.5px;
 	}
 	.advisor-paragraph-container {
-		height: 155px;
+		height: 180px;
 	}
 }
 
@@ -948,12 +995,16 @@ body {
 		width: 36%;
 		height: 550px;
 		display: inline-block;
+		margin-right: 4%;
+		margin-left: auto;
 	}
 	.check-out-frame {
 		width: 36%;
 		height: 550px;
 		display: inline-block;
 		margin-top: 0em;
+		margin-left: 4%;
+		margin-right: auto;
 	}
 	.copyright {
 		font-size: 14px;
@@ -982,8 +1033,12 @@ body {
 		height: auto;
 	}
 	.advisor-colors {
-		height: 46px;
-		width: 46px;
+		height: 45px;
+		width: 45px;
+	}
+	.eboard-colors {
+		height: 40px;
+		width: 40px;
 	}
 	.steps-header {
 		font-size: 23px;
@@ -1006,44 +1061,52 @@ body {
 	.down-arrow {
 		max-width: 37.5px;
 		height: auto;
-		margin-top: 18.75vh;
+		margin-top: 26vh;
 	}
 	.up-button {
 		width: 44.5px;
 		height: 44.5px;
+		margin-top: 4em;
 	}
 	.step-boxes {
-		width: 24%;
-		height: 350px;
+		width: 23%;
+		height: auto;
+		margin: 4% 2%;
+	}
+	.step-boxes:hover {
+		transform: scale(1.10);
+		opacity: 1.0;
 	}
 	.advisor-box {
 		width: 22%;
-		height: 475px;
-		margin: 2% 3.0%;
+		height: auto;
+		margin: 4% 3.0%;
 	}
 	.eboard-box {
 		width: 19%;
-		height: 425px;
+		height: auto;
 		margin: 1.75% 1.50%;
 	}
 	.eboard-paragraph-container {
-		height: 163px;
+		height: auto;
+		margin-bottom: 1.25%;
 	}
 	.advisor-box:hover {
-		transform: scale(1.15);
+		transform: scale(1.1);
 	}
 	.eboard-box:hover {
-		transform: scale(1.15);
+		transform: scale(1.08);
 	}
 	.footer-icons {
 		display: inline-block;
+		width: auto;
 	}
 	.signature-box {
-		width: 1fr;
+		width: auto;
 		display: inline-block;
 	}
 	.copyright-box {
-		width: 1fr;
+		width: auto;
 		display: inline-block;
 	}
 	.footer {
@@ -1055,7 +1118,7 @@ body {
 		font-size: 15.25px;
 	}
 	.advisor-paragraph-container {
-		height: 155px;
+		height: 183px;
 	}
 	
 }
@@ -1092,15 +1155,19 @@ body {
 		height: 500px;
 	}
 	.check-in-frame {
-		width: 35%;
+		width: 32%;
 		height: 575px;
 		display: inline-block;
+		margin-right: 4%;
+		margin-left: auto;
 	}
 	.check-out-frame {
-		width: 35%;
+		width: 32%;
 		height: 575px;
 		display: inline-block;
 		margin-top: 0em;
+		margin-left: 4%;
+		margin-right: auto;
 	}
 	.copyright {
 		font-size: 15px;
@@ -1132,6 +1199,10 @@ body {
 		height: 48px;
 		width: 48px;
 	}
+	.eboard-colors {
+		height: 37px;
+		width: 37px;
+	}
 	.steps-header {
 		font-size: 24px;
 	}
@@ -1158,23 +1229,30 @@ body {
 	.up-button {
 		width: 45px;
 		height: 45px;
+		margin-top: 4em;
 	}
 	.step-boxes {
-		width: 23.5%;
-		height: 350px;
+		width: 23.0%;
+		height: auto;
+		margin: 4% 2.5%;
+	}
+	.step-boxes:hover {
+		transform: scale(1.10);
+		opacity: 1.0;
 	}
 	.advisor-box {
 		width: 250px;
-		height: 475px;
-		margin: 2% 3.5%;
+		height: auto;
+		margin: 4% 3.5%;
 	}
 	.eboard-box {
-		width: 212px;
-		height: 425px;
-		margin: 1.75% 2%;
+		width: 215px;
+		height: auto;
+		margin: 1.75% 1.80%;
 	}
 	.eboard-paragraph-container {
-		height: 163px;
+		height: auto;
+		margin-bottom: 1.25%;
 	}
 	.advisor-box:hover {
 		transform: scale(1.15);
@@ -1184,13 +1262,14 @@ body {
 	}
 	.footer-icons {
 		display: inline-block;
+		width: auto;
 	}
 	.signature-box {
-		width: 1fr;
+		width: auto;
 		display: inline-block;
 	}
 	.copyright-box {
-		width: 1fr;
+		width: auto;
 		display: inline-block;
 	}
 	.footer {
@@ -1202,7 +1281,28 @@ body {
 		font-size: 15.25px;
 	}
 	.advisor-paragraph-container {
-		height: 155px;
+		height: 170px;
+	}
+}
+
+@media (min-width: 1650px) {
+	.main-container {
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+}
+
+@media (min-width: 2000px) {
+	.main-container {
+		margin-left: 20%;
+		margin-right: 20%;
+	}
+}
+
+@media (min-width: 2650px) {
+	.main-container {
+		margin-left: 25%;
+		margin-right: 25%;
 	}
 }
 
@@ -1219,6 +1319,7 @@ body {
 	}
 	.down-arrow {
 		margin-top: 7vh;
+		max-width: 32px;
 	}
 }
 
@@ -1233,25 +1334,6 @@ body {
 
 
 
-
-/*
-#eboard-four {
-	border: 15px solid;
-	animation-name: eb;
-	animation-iteration-count: infinite;
-	animation-duration: 1s;
-}
-
-@keyframes eb {
-	0% {border-color: #FF0000}
-	20% {border-color: #FF7F00;}
-	40% {border-color: #FFFF00;}
-	60% {border-color: #00FF00;}
-	80% {border-color: #0000FF;}
-	100% {border-color: #8B00FF;}
-}
-
-*/
 
 
 
