@@ -1,9 +1,6 @@
 * {
 	padding: 0;
 	margin: 0;
-	-webkit-font-smoothing: antialiased;
-	-webkit-backface-visibility:  hidden;
-   	-webkit-tap-highlight-color:  transparent;
 }
 .main-container {
 	margin-left: 2.5%;
@@ -882,11 +879,11 @@ body {
 @media (min-width: 979px) {
 	.landing-header {
 		font-size: 45px;
-		margin-top: 27.5vh;
+		margin-top: 25.5vh;
 	}
 	.landing-subheader {
 		font-size: 32px;
-		margin-top: 16.50vh;
+		margin-top: 15.0vh;
 	}
 	.navbar {
 		margin-top: 2.5%; 
@@ -979,7 +976,7 @@ body {
 	.down-arrow {
 		max-width: 37.5px;
 		height: auto;
-		margin-top: 26vh;
+		margin-top: 22vh;
 	}
 	.up-button {
 		width: 44.5px;
@@ -1238,3 +1235,20 @@ body {
 		max-width: 32px;
 	}
 }
+
+@media (min-height: 1200px) and (min-width: 750px) {
+	.landing-header {
+		margin-top: 31vh;
+	}
+	.landing-subheader {
+		margin-top: 17vh;
+	}
+	.navbar {
+		margin-top: 5%; 
+	}
+	.down-arrow {
+		margin-top: 27vh;
+	}
+}
+
+
