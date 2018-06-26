@@ -1,6 +1,9 @@
 * {
 	padding: 0;
 	margin: 0;
+	-webkit-font-smoothing: antialiased;
+	-webkit-backface-visibility:  hidden;
+    	-webkit-tap-highlight-color:  transparent;
 }
 .main-container {
 	margin-left: 2.5%;
