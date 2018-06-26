@@ -11,9 +11,6 @@
 		<link href="https://fonts.googleapis.com/css?family=Poppins:700,900" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Nunito:600,800" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
-		<link rel="import" href="/bower_components/simpla-text/simpla-text.html">
-		<link rel="import" href="/bower_components/simpla-img/simpla-img.html">
-		<link rel="import" href="/bower_components/simpla-admin/simpla-admin.html" async>
 		<script src="https://www.google.com/jsapi" type="text/javascript"></script>
 		<title>Student Council | FHS</title>
 	</head>
@@ -36,7 +33,7 @@
 				</center>
 				<center>
 					<h1 class="landing-header"><strong class="header-emphasis-one">We</strong> are the <strong class="header-emphasis-two">FHS Student Council</strong>.</h1>
-					<h2 class="landing-subheader">It's not about ideas - it's about <strong class="landing-subheader-emphasis">making ideas happen</strong>.</h2>
+					<h2 class="cushycms landing-subheader">It's not about ideas - it's about <strong class="landing-subheader-emphasis">making ideas happen</strong>.</h2>
 					<a href="#team">
 						<img class="down-arrow" src="images/arrow.svg" alt="arrow" width="100%" height="100%">
 					</a>
@@ -556,29 +553,7 @@
 		<!--START OF JAVASCRIPT-->
 		<script src="https://unpkg.com/scrollreveal@beta"></script>
 		<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@14/dist/smooth-scroll.polyfills.min.js"></script>
-		<script src="https://unpkg.com/webcomponents.js@^0.7.24/webcomponents-lite.min.js" async></script>
 		<script>
-
-			// Import Simpla and OAuth adapter
-			import Simpla from 'simpla';
-			import SimplaNetlify from 'simpla/adapters/netlify';
-
-			// Init Simpla
-			Simpla.init({
-
-			  // Github repo to store content in
-			  repo: 'Michael-Parekh/fhs-stuco',
-
-			  // Adapter to authenticate users with Github
-			  auth: new SimplaNetlify({ site: 'fremdstuco' }),
-
-			  // Public URL of your content (optional)
-			  source: 'https://fremdstuco.netlify.com'
-
-			});
-
-			// Add Simpla to window global for components to access
-			window.Simpla = Simpla;
 
 			/*START OF SCROLLREVEAL */
 			window.sr = ScrollReveal();
