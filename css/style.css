@@ -488,6 +488,9 @@ body {
 	border-radius: 30px;
 	overflow: scroll;
 }
+iframe {
+ 	overflow: scroll;
+}
 
 @media (min-width: 100px) {
 	.landing-header {
@@ -938,7 +941,7 @@ body {
 	.down-arrow {
 		max-width: 38px;
 		height: auto;
-		margin-top: 26vh;
+		margin-top: 25vh;
 	}
 	.up-button {
 		width: 44px;
