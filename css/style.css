@@ -21,19 +21,28 @@
 	background-image: url("background.jpg");
 	background-size: cover;
 	opacity: 0.22;
-	filter: blur(0px);
+	-webkit-filter: blur(0px);
+	        filter: blur(0px);
 }
 .landing-header {
 	font-family: 'Poppins', sans-serif;
 	position: relative;
-	animation: header;
-	animation-fill-mode: forwards;
-	animation-delay: 0.25s;
-	animation-duration: 1.35s;
+	-webkit-animation: header;
+	        animation: header;
+	-webkit-animation-fill-mode: forwards;
+	        animation-fill-mode: forwards;
+	-webkit-animation-delay: 0.45s;
+	        animation-delay: 0.45s;
+	-webkit-animation-duration: 1.35s;
+	        animation-duration: 1.35s;
+}
+@-webkit-keyframes header {
+	0% {-webkit-transform: translateX(110%);transform: translateX(110%);}
+	100% {-webkit-transform: translateX(0%);transform: translateX(0%);}
 }
 @keyframes header {
-	0% {transform: translateX(110%);}
-	100% {transform: translateX(0%);}
+	0% {-webkit-transform: translateX(110%);transform: translateX(110%);}
+	100% {-webkit-transform: translateX(0%);transform: translateX(0%);}
 }
 .header-emphasis-one {
 	text-decoration: underline;
@@ -44,23 +53,49 @@
 .landing-subheader {
 	font-family: 'Poppins', sans-serif;
 	position: relative;
-	animation: subheader;
-	animation-fill-mode: forwards;
-	animation-delay: 0.25s;
-	animation-duration: 1.35s;
+	-webkit-animation: subheader;
+	        animation: subheader;
+	-webkit-animation-fill-mode: forwards;
+	        animation-fill-mode: forwards;
+	-webkit-animation-delay: 0.45s;
+	        animation-delay: 0.45s;
+	-webkit-animation-duration: 1.35s;
+	        animation-duration: 1.35s;
+}
+@-webkit-keyframes subheader {
+	0% {-webkit-transform: translateX(-110%);transform: translateX(-110%);}
+	100% {-webkit-transform: translateX(0%);transform: translateX(0%);}
 }
 @keyframes subheader {
-	0% {transform: translateX(-110%);}
-	100% {transform: translateX(0%);}
+	0% {-webkit-transform: translateX(-110%);transform: translateX(-110%);}
+	100% {-webkit-transform: translateX(0%);transform: translateX(0%);}
 }
 .landing-subheader-emphasis {
 	position: relative;
 	color: green;
-	animation: subheader-emphasis;
-	animation-duration: 5s;
-	animation-delay: 0.25s;
-	animation-timing-function: ease-in-out;
-	animation-iteration-count: infinite;
+	-webkit-animation: subheader-emphasis;
+	        animation: subheader-emphasis;
+	-webkit-animation-duration: 5s;
+	        animation-duration: 5s;
+	-webkit-animation-delay: 0.45s;
+	        animation-delay: 0.45s;
+	-webkit-animation-timing-function: ease-in-out;
+	        animation-timing-function: ease-in-out;
+	-webkit-animation-iteration-count: infinite;
+	        animation-iteration-count: infinite;
+}
+@-webkit-keyframes subheader-emphasis {
+	0% {color: rgb(0, 95, 0);}
+	10% {color: rgb(0, 102, 0);}
+	20% {color: rgb(0, 128, 0);}
+	30% {color: rgb(0, 153, 0);}
+	40% {color: rgb(0, 179, 0);}
+	50% {color: rgb(0, 204, 0);}
+	60% {color: rgb(0, 230, 0);}
+	70% {color: rgb(0, 245, 0);}
+	80% {color: rgb(0, 230, 0);}
+	90% {color: rgb(0, 175, 0);}
+	100% {color: rgb(0, 125, 0);}
 }
 @keyframes subheader-emphasis {
 	0% {color: rgb(0, 95, 0);}
@@ -82,10 +117,14 @@
 	opacity: 0.75;
 	padding: 10px;
 	z-index: 9999;
+	-webkit-transition: all .2s;
+	-o-transition: all .2s;
 	transition: all .2s; 
 }
 .down-arrow:hover {
-	transform: translateY(15px);
+	-webkit-transform: translateY(15px);
+	    -ms-transform: translateY(15px);
+	        transform: translateY(15px);
 	opacity: 1.0;
 }
 .navbar {
@@ -107,7 +146,9 @@
 	color: black;
 }
 .navbar-list a:hover {
-	transition-duration: 0.26s;
+	-webkit-transition-duration: 0.26s;
+	     -o-transition-duration: 0.26s;
+	        transition-duration: 0.26s;
 	color: #00cc00;
 }
 .navbar-list a:before {
@@ -116,7 +157,11 @@
 	height: 2px;
 	background-color: black;
 	visibility: hidden;
-	transform: scaleX(0);
+	-webkit-transform: scaleX(0);
+	    -ms-transform: scaleX(0);
+	        transform: scaleX(0);
+	-webkit-transition: all 0.25s ease-in-out 0s;
+	-o-transition: all 0.25s ease-in-out 0s;
 	transition: all 0.25s ease-in-out 0s;
 	width: 100%;
   	bottom: 0;
@@ -125,7 +170,9 @@
 .navbar-list a:hover:before {
 	color: black;
 	visibility: visible;
-	transform: scaleX(1);
+	-webkit-transform: scaleX(1);
+	    -ms-transform: scaleX(1);
+	        transform: scaleX(1);
 }
 a {
 	text-decoration: none;
@@ -148,9 +195,14 @@ body {
 	text-align: center;
 }
 .team-members {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 }
 .advisor-description {
 	font-family: 'Nunito', sans-serif;
@@ -165,8 +217,14 @@ body {
 	height: 450px;
 	border: 2.5px solid rgba(0, 230, 0, 0.45);
 	margin-top: 4%;
-	transform: 0;
+	-webkit-transform: 0;
+	    -ms-transform: 0;
+	        transform: 0;
+	-webkit-transition: -webkit-transform .20s;
+	transition: -webkit-transform .20s;
+	-o-transition: transform .20s;
 	transition: transform .20s;
+	transition: transform .20s, -webkit-transform .20s;
 	border-radius: 30px;
 	padding: 2%;
 }
@@ -177,7 +235,9 @@ body {
 }
 .advisor-colors {
 	fill: black;
-	transition-duration: 0.35s;
+	-webkit-transition-duration: 0.35s;
+	     -o-transition-duration: 0.35s;
+	        transition-duration: 0.35s;
 }
 .advisor-colors:hover {
 	fill: #00cc00;
@@ -198,11 +258,17 @@ body {
 .eboard-box {
 	border: 2px solid rgba(0, 204, 0, 0.45);
 	padding: 1%;
+	-webkit-transition: -webkit-transform .25s;
+	transition: -webkit-transform .25s;
+	-o-transition: transform .25s;
 	transition: transform .25s;
+	transition: transform .25s, -webkit-transform .25s;
 	border-radius: 25px;
 }
 .eboard-box:hover {
-	transform: scale(1.15);
+	-webkit-transform: scale(1.15);
+	    -ms-transform: scale(1.15);
+	        transform: scale(1.15);
 }
 .eboard-image {
 	border-radius: 50%;
@@ -216,7 +282,9 @@ body {
 .eboard-colors {
 	fill: black;
 	padding: 0px;
-	transition-duration: 0.30s;
+	-webkit-transition-duration: 0.30s;
+	     -o-transition-duration: 0.30s;
+	        transition-duration: 0.30s;
 }
 .eboard-colors:hover {
 	fill: #00cc00;
@@ -232,7 +300,7 @@ body {
 	border: 4px solid #ace600;
     border-radius: 30px;
     position: relative;
-    overflow: hidden;
+    overflow: scroll;
     display: inline-block;
     margin-right: 7%;
     margin-top: 4%;
@@ -241,24 +309,33 @@ body {
 	border: 4px solid #99cc00;
     border-radius: 30px;
     position: relative;
-    overflow: hidden;
+    overflow: scroll;
     display: inline-block;
     margin-left: 7%;
 }
 .contact-steps {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 }
 .step-boxes {
 	border: 3px solid black;
 	border-radius: 25px;
 	padding: 1%;
 	opacity: 0.85;
+	-webkit-transition: .2s;
+	-o-transition: .2s;
 	transition: .2s;
 }
 .step-boxes:hover {
-	transform: scale(1.10);
+	-webkit-transform: scale(1.10);
+	    -ms-transform: scale(1.10);
+	        transform: scale(1.10);
 	opacity: 1.0;
 }
 .steps-header {
@@ -274,7 +351,8 @@ body {
 }
 .step-boxes:hover .steps-header {
 	text-decoration: underline;
-	text-decoration-color: rgb(102, 255, 51);
+	-webkit-text-decoration-color: rgb(102, 255, 51);
+	        text-decoration-color: rgb(102, 255, 51);
 }
 #steps-colors-one {
 	margin-top: 3.5%;
@@ -302,28 +380,39 @@ body {
 }
 .steps-colors path {
 	fill: green;
-	transition-duration: 0.40s;
+	-webkit-transition-duration: 0.40s;
+	     -o-transition-duration: 0.40s;
+	        transition-duration: 0.40s;
 }
 .steps-colors:hover path {
 	fill: #00cc00;
 }
 .eboard-callout {
 	text-decoration: underline;
-	transition-duration: 0.31s;
+	-webkit-transition-duration: 0.31s;
+	     -o-transition-duration: 0.31s;
+	        transition-duration: 0.31s;
 }
 .eboard-callout:hover {
-	text-decoration-color: rgb(102, 255, 51);
+	-webkit-text-decoration-color: rgb(102, 255, 51);
+	        text-decoration-color: rgb(102, 255, 51);
 	color: rgba(102, 255, 51, 0.75);
 }
 .up-button {
-	transition-duration: .4s;
+	-webkit-transition-duration: .4s;
+	     -o-transition-duration: .4s;
+	        transition-duration: .4s;
 }
 .up-button:hover {
-	transform: translateY(-1.75vh);
+	-webkit-transform: translateY(-1.75vh);
+	    -ms-transform: translateY(-1.75vh);
+	        transform: translateY(-1.75vh);
 }
 .up-button path {
 	fill: black;
-	transition-duration: 0.20s;
+	-webkit-transition-duration: 0.20s;
+	     -o-transition-duration: 0.20s;
+	        transition-duration: 0.20s;
 }
 .up-button:hover path {
 	fill: #00cc00;
@@ -331,8 +420,12 @@ body {
 .footer {
 	margin-top: 2.0em;
 	width: 90%;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	align-items: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	margin-bottom: 2vh;
 }
 .footer-colors {
@@ -341,7 +434,9 @@ body {
 }
 .footer-colors path {
 	fill: green;
-	transition-duration: 0.40s;
+	-webkit-transition-duration: 0.40s;
+	     -o-transition-duration: 0.40s;
+	        transition-duration: 0.40s;
 }
 .footer-colors:hover path {
 	fill: #00cc00;
@@ -369,11 +464,14 @@ body {
 	text-decoration: underline;
 }
 .signature-name a {
+	-webkit-transition: 0.45s;
+	-o-transition: 0.45s;
 	transition: 0.45s;
 }
 .signature-name a:hover {
 	color: rgba(102, 255, 51, 0.75);
-	text-decoration-color: rgb(102, 255, 51);
+	-webkit-text-decoration-color: rgb(102, 255, 51);
+	        text-decoration-color: rgb(102, 255, 51);
 }
 .footer-icons {
 	display: inline-block;
@@ -486,7 +584,7 @@ body {
 	.down-arrow {
 		max-width: 32px;
 		height: auto;
-		margin-top: 17vh;
+		margin-top: 13vh;
 	}
 	.up-button {
 		width: 42px;
@@ -500,7 +598,9 @@ body {
 		margin: 3% 3%;
 	}
 	.step-boxes:hover {
-		transform: scale(1.10);
+		-webkit-transform: scale(1.10);
+		    -ms-transform: scale(1.10);
+		        transform: scale(1.10);
 		opacity: 1.0;
 	}
 	#advisor-one {
@@ -521,10 +621,14 @@ body {
 		margin-bottom: 2%;
 	}
 	.advisor-box:hover {
-		transform: scale(1.04);
+		-webkit-transform: scale(1.04);
+		    -ms-transform: scale(1.04);
+		        transform: scale(1.04);
 	}
 	.eboard-box:hover {
-		transform: scale(1.03);
+		-webkit-transform: scale(1.03);
+		    -ms-transform: scale(1.03);
+		        transform: scale(1.03);
 	}
 	.footer-icons {
 		display: inline-block;
@@ -541,8 +645,11 @@ body {
 	.footer {
 		margin-top: 2.0em;
 		width: 90%;
-		flex-wrap: wrap;
-		justify-content: center;
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
 	}
 	.signature-name {
 		font-size: 12.5px;
@@ -667,7 +774,9 @@ body {
 		margin: 3% 3%;
 	}
 	.step-boxes:hover {
-		transform: scale(1.10);
+		-webkit-transform: scale(1.10);
+		    -ms-transform: scale(1.10);
+		        transform: scale(1.10);
 		opacity: 1.0;
 	}
 	.advisor-box {
@@ -685,14 +794,18 @@ body {
 		margin-bottom: 1.25%;
 	}
 	.advisor-box:hover {
-		transform: scale(1.05);
+		-webkit-transform: scale(1.05);
+		    -ms-transform: scale(1.05);
+		        transform: scale(1.05);
 	}
 	.eboard-box:hover {
-		transform: scale(1.04);
+		-webkit-transform: scale(1.04);
+		    -ms-transform: scale(1.04);
+		        transform: scale(1.04);
 	}
 	.footer-icons {
 		display: inline-block;
-		width: width: 100%;
+		width: 100%;
 	}
 	.signature-box {
 		width: 100%;
@@ -705,7 +818,9 @@ body {
 	.footer {
 		margin-top: 2.0em;
 		width: 90%;
-		justify-content: space-between;
+		-webkit-box-pack: justify;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
 	}
 	.signature-name {
 		font-size: 13px;
@@ -818,7 +933,7 @@ body {
 	.down-arrow {
 		max-width: 38px;
 		height: auto;
-		margin-top: 30vh;
+		margin-top: 26vh;
 	}
 	.up-button {
 		width: 44px;
@@ -831,7 +946,9 @@ body {
 		margin: 3% 1.25%;
 	}
 	.step-boxes:hover {
-		transform: scale(1.07);
+		-webkit-transform: scale(1.07);
+		    -ms-transform: scale(1.07);
+		        transform: scale(1.07);
 		opacity: 1.0;
 	}
 	.advisor-box {
@@ -849,10 +966,14 @@ body {
 		margin-bottom: 1.25%;
 	}
 	.advisor-box:hover {
-		transform: scale(1.1);
+		-webkit-transform: scale(1.1);
+		    -ms-transform: scale(1.1);
+		        transform: scale(1.1);
 	}
 	.eboard-box:hover {
-		transform: scale(1.08);
+		-webkit-transform: scale(1.08);
+		    -ms-transform: scale(1.08);
+		        transform: scale(1.08);
 	}
 	.footer-icons {
 		display: inline-block;
@@ -869,7 +990,9 @@ body {
 	.footer {
 		margin-top: 2.0em;
 		width: 90%;
-		justify-content: space-between;
+		-webkit-box-pack: justify;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
 	}
 	.signature-name {
 		font-size: 13.5px;
@@ -992,7 +1115,9 @@ body {
 		margin: 4% 2%;
 	}
 	.step-boxes:hover {
-		transform: scale(1.10);
+		-webkit-transform: scale(1.10);
+		    -ms-transform: scale(1.10);
+		        transform: scale(1.10);
 		opacity: 1.0;
 	}
 	.advisor-box {
@@ -1010,10 +1135,14 @@ body {
 		margin-bottom: 1.25%;
 	}
 	.advisor-box:hover {
-		transform: scale(1.1);
+		-webkit-transform: scale(1.1);
+		    -ms-transform: scale(1.1);
+		        transform: scale(1.1);
 	}
 	.eboard-box:hover {
-		transform: scale(1.08);
+		-webkit-transform: scale(1.08);
+		    -ms-transform: scale(1.08);
+		        transform: scale(1.08);
 	}
 	.footer-icons {
 		display: inline-block;
@@ -1030,7 +1159,9 @@ body {
 	.footer {
 		margin-top: 2.0em;
 		width: 90%;
-		justify-content: space-between;
+		-webkit-box-pack: justify;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
 	}
 	.signature-name {
 		font-size: 15.25px;
@@ -1153,7 +1284,9 @@ body {
 		margin: 4% 2.5%;
 	}
 	.step-boxes:hover {
-		transform: scale(1.10);
+		-webkit-transform: scale(1.10);
+		    -ms-transform: scale(1.10);
+		        transform: scale(1.10);
 		opacity: 1.0;
 	}
 	.advisor-box {
@@ -1171,10 +1304,14 @@ body {
 		margin-bottom: 1.25%;
 	}
 	.advisor-box:hover {
-		transform: scale(1.15);
+		-webkit-transform: scale(1.15);
+		    -ms-transform: scale(1.15);
+		        transform: scale(1.15);
 	}
 	.eboard-box:hover {
-		transform: scale(1.15);
+		-webkit-transform: scale(1.15);
+		    -ms-transform: scale(1.15);
+		        transform: scale(1.15);
 	}
 	.footer-icons {
 		display: inline-block;
@@ -1191,7 +1328,9 @@ body {
 	.footer {
 		margin-top: 2.0em;
 		width: 90%;
-		justify-content: space-between;
+		-webkit-box-pack: justify;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
 	}
 	.signature-name {
 		font-size: 15.25px;
@@ -1253,5 +1392,4 @@ body {
 		margin-top: 27vh;
 	}
 }
-
 
