@@ -1047,7 +1047,7 @@ body {
 	#box {
 		width: 72%;
 		height: 480px;
-		border-radius: 30px;
+		border-radius: 20px;
 	}
 	.check-in-frame {
 		width: 36%;
@@ -1055,7 +1055,7 @@ body {
 		display: inline-block;
 		margin-right: 4%;
 		margin-left: auto;
-		border-radius: 30px;
+		border-radius: 20px;
 	}
 	.check-out-frame {
 		width: 36%;
@@ -1064,7 +1064,7 @@ body {
 		margin-top: 0em;
 		margin-left: 4%;
 		margin-right: auto;
-		border-radius: 30px;
+		border-radius: 20px;
 	}
 	.copyright {
 		font-size: 14px;
@@ -1189,7 +1189,7 @@ body {
 		height: 183px;
 	}
 	.calendar {
-		border-radius: 30px;
+		border-radius: 20px;
 	}
 }
 
