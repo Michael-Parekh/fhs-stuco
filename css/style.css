@@ -304,9 +304,7 @@ body {
     display: inline-block;
     margin-right: 7%;
     margin-top: 4%;
-}
-.check-in-form {
-	overflow: scroll;
+	-webkit-overflow-scrolling: touch;
 }
 .check-out-frame {
 	border: 4px solid #99cc00;
@@ -315,9 +313,7 @@ body {
     overflow: scroll;
     display: inline-block;
     margin-left: 7%;
-}
-.check-out-form {
-	overflow: scroll;
+	-webkit-overflow-scrolling: touch;
 }
 .contact-steps {
 	display: -webkit-box;
@@ -487,9 +483,7 @@ body {
 	border: 4px solid #99cc00;
 	border-radius: 30px;
 	overflow: scroll;
-}
-iframe {
- 	overflow: scroll;
+	-webkit-overflow-scrolling: touch;
 }
 
 @media (min-width: 100px) {
