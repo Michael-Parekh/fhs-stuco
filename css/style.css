@@ -486,11 +486,11 @@ body {
 @media (min-width: 100px) {
 	.landing-header {
 		font-size: 26px;
-		margin-top: 27.5vh;
+		margin-top: 23vh;
 	}
 	.landing-subheader {
 		font-size: 19px;
-		margin-top: 16.50vh;
+		margin-top: 15vh;
 	}
 	.navbar {
 		margin-top: 13%; 
@@ -584,9 +584,9 @@ body {
 		height: 24px;
 	}
 	.down-arrow {
-		max-width: 32px;
+		max-width: 30px;
 		height: auto;
-		margin-top: 13vh;
+		margin-top: 12.75vh;
 	}
 	.up-button {
 		width: 42px;
