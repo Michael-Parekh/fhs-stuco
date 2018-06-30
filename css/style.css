@@ -1407,6 +1407,21 @@ body {
 	}
 }
 
+@media (min-height: 700px) and (max-width: 475px) {
+	.landing-header {
+		margin-top: 24vh;
+	}
+	.landing-subheader {
+		margin-top: 16.5vh;
+	}
+	.navbar {
+		margin-top: 14%; 
+	}
+	.down-arrow {
+		margin-top: 15.5vh;
+	}
+}
+
 @media (min-height: 1200px) and (min-width: 750px) {
 	.landing-header {
 		margin-top: 31vh;
