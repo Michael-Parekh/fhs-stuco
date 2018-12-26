@@ -266,9 +266,9 @@ body {
 	border-radius: 25px;
 }
 .eboard-box:hover {
-	-webkit-transform: scale(1.15);
-	    -ms-transform: scale(1.15);
-	        transform: scale(1.15);
+	-webkit-transform: scale(1.15) !important;
+	    -ms-transform: scale(1.15) !important;
+	        transform: scale(1.15) !important;
 }
 .eboard-image {
 	border-radius: 50%;
@@ -333,9 +333,9 @@ body {
 	transition: .2s;
 }
 .step-boxes:hover {
-	-webkit-transform: scale(1.10);
-	    -ms-transform: scale(1.10);
-	        transform: scale(1.10);
+	-webkit-transform: scale(1.10) !important;
+	    -ms-transform: scale(1.10) !important;
+	        transform: scale(1.10) !important;
 	opacity: 1.0;
 }
 .steps-header {
@@ -600,9 +600,9 @@ body {
 		margin: 3% 3%;
 	}
 	.step-boxes:hover {
-		-webkit-transform: scale(1.10);
-		    -ms-transform: scale(1.10);
-		        transform: scale(1.10);
+		-webkit-transform: scale(1.10) !important;
+		    -ms-transform: scale(1.10) !important;
+		        transform: scale(1.10) !important;
 		opacity: 1.0;
 	}
 	#advisor-one {
@@ -623,14 +623,14 @@ body {
 		margin-bottom: 2%;
 	}
 	.advisor-box:hover {
-		-webkit-transform: scale(1.04);
-		    -ms-transform: scale(1.04);
-		        transform: scale(1.04);
+		-webkit-transform: scale(1.04) !important;
+		    -ms-transform: scale(1.04) !important;
+		        transform: scale(1.04) !important;
 	}
 	.eboard-box:hover {
-		-webkit-transform: scale(1.03);
-		    -ms-transform: scale(1.03);
-		        transform: scale(1.03);
+		-webkit-transform: scale(1.03) !important;
+		    -ms-transform: scale(1.03) !important;
+		        transform: scale(1.03) !important;
 	}
 	.footer-icons {
 		display: inline-block;
@@ -782,9 +782,9 @@ body {
 		margin: 3% 3%;
 	}
 	.step-boxes:hover {
-		-webkit-transform: scale(1.10);
-		    -ms-transform: scale(1.10);
-		        transform: scale(1.10);
+		-webkit-transform: scale(1.10) !important;
+		    -ms-transform: scale(1.10) !important;
+		        transform: scale(1.10) !important;
 		opacity: 1.0;
 	}
 	.advisor-box {
@@ -802,14 +802,14 @@ body {
 		margin-bottom: 1.25%;
 	}
 	.advisor-box:hover {
-		-webkit-transform: scale(1.05);
-		    -ms-transform: scale(1.05);
-		        transform: scale(1.05);
+		-webkit-transform: scale(1.05) !important;
+		    -ms-transform: scale(1.05) !important;
+		        transform: scale(1.05) !important;
 	}
 	.eboard-box:hover {
-		-webkit-transform: scale(1.04);
-		    -ms-transform: scale(1.04);
-		        transform: scale(1.04);
+		-webkit-transform: scale(1.04) !important;
+		    -ms-transform: scale(1.04) !important;
+		        transform: scale(1.04) !important;
 	}
 	.footer-icons {
 		display: inline-block;
@@ -960,9 +960,9 @@ body {
 		margin: 3% 1.25%;
 	}
 	.step-boxes:hover {
-		-webkit-transform: scale(1.07);
-		    -ms-transform: scale(1.07);
-		        transform: scale(1.07);
+		-webkit-transform: scale(1.07) !important;
+		    -ms-transform: scale(1.07) !important;
+		        transform: scale(1.07) !important;
 		opacity: 1.0;
 	}
 	.advisor-box {
@@ -980,14 +980,14 @@ body {
 		margin-bottom: 1.25%;
 	}
 	.advisor-box:hover {
-		-webkit-transform: scale(1.1);
-		    -ms-transform: scale(1.1);
-		        transform: scale(1.1);
+		-webkit-transform: scale(1.1) !important;
+		    -ms-transform: scale(1.1) !important;
+		        transform: scale(1.1) !important;
 	}
 	.eboard-box:hover {
-		-webkit-transform: scale(1.08);
-		    -ms-transform: scale(1.08);
-		        transform: scale(1.08);
+		-webkit-transform: scale(1.08) !important;
+		    -ms-transform: scale(1.08) !important;
+		        transform: scale(1.08) !important;
 	}
 	.footer-icons {
 		display: inline-block;
@@ -1135,9 +1135,9 @@ body {
 		margin: 4% 2%;
 	}
 	.step-boxes:hover {
-		-webkit-transform: scale(1.10);
-		    -ms-transform: scale(1.10);
-		        transform: scale(1.10);
+		-webkit-transform: scale(1.10) !important;
+		    -ms-transform: scale(1.10) !important;
+		        transform: scale(1.10) !important;
 		opacity: 1.0;
 	}
 	.advisor-box {
@@ -1155,14 +1155,14 @@ body {
 		margin-bottom: 1.25%;
 	}
 	.advisor-box:hover {
-		-webkit-transform: scale(1.1);
-		    -ms-transform: scale(1.1);
-		        transform: scale(1.1);
+		-webkit-transform: scale(1.1) !important;
+		    -ms-transform: scale(1.1) !important;
+		        transform: scale(1.1) !important;
 	}
 	.eboard-box:hover {
-		-webkit-transform: scale(1.08);
-		    -ms-transform: scale(1.08);
-		        transform: scale(1.08);
+		-webkit-transform: scale(1.08) !important;
+		    -ms-transform: scale(1.08) !important;
+		        transform: scale(1.08) !important;
 	}
 	.footer-icons {
 		display: inline-block;
@@ -1310,9 +1310,9 @@ body {
 		margin: 4% 2.5%;
 	}
 	.step-boxes:hover {
-		-webkit-transform: scale(1.10);
-		    -ms-transform: scale(1.10);
-		        transform: scale(1.10);
+		-webkit-transform: scale(1.10) !important;
+		    -ms-transform: scale(1.10) !important;
+		        transform: scale(1.10) !important;
 		opacity: 1.0;
 	}
 	.advisor-box {
@@ -1330,14 +1330,14 @@ body {
 		margin-bottom: 1.25%;
 	}
 	.advisor-box:hover {
-		-webkit-transform: scale(1.15);
-		    -ms-transform: scale(1.15);
-		        transform: scale(1.15);
+		-webkit-transform: scale(1.15) !important;
+		    -ms-transform: scale(1.15) !important;
+		        transform: scale(1.15) !important;
 	}
 	.eboard-box:hover {
-		-webkit-transform: scale(1.15);
-		    -ms-transform: scale(1.15);
-		        transform: scale(1.15);
+		-webkit-transform: scale(1.15) !important;
+		    -ms-transform: scale(1.15) !important;
+		        transform: scale(1.15) !important;
 	}
 	.footer-icons {
 		display: inline-block;
