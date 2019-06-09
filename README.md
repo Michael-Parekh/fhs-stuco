@@ -1,4 +1,4 @@
 
 ## Centralized website for William Fremd High School's Student Council!
 
-#### Built by Michael Parekh in 2018. Managed by Michael Parekh from 2018-2020.
+#### Built by Michael Parekh in 2018.
